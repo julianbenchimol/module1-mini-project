@@ -64,4 +64,6 @@ footer{
     font-size: small;
     background-color: beige;
     text-align: right;
+    position:absolute;
+    bottom: 0;
 }
