@@ -1,26 +1,60 @@
 *{
-    font: small-caps bold 24px/1 sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
 }
+
 header{
     background-color: beige;
-    position: fixed;
     width: 100%;
     height: 100px;
-}
 
+}
 h1 {
     text-align: center;
+    position: relative;
+    top: 25px;
 }
 
-.contact {
-    display: inline;
-    text-align: right;
+#photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 512px;
+    height: fit-content;
 }
-
-a {
+#image-1-caption{
+    text-align: center;
+    font-weight: lighter;
     font-size: 18px;
-    padding-right:20px;
+    margin-bottom: 10px;
+}
+.boxed {
+    border: 3px solid black;
+    width: 300px;
+    margin: auto;
+    padding: 15px;
+}
+#contact-label{
+    font-size: 16px;
+}
+#contact-form{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+#submit-button{
+    width: 100px;
+    display: block;
+    margin: auto;
+    padding: auto;
 }
 footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    color: white;
+    font-size: small;
     background-color: darkblue;
 }
